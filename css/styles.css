@@ -1,0 +1,16 @@
+.jumbotron {
+  background-color: #81ecec
+}
+
+.jumbotron h1 {
+  font-family: sans-serif;
+  font-variant: small-caps;
+  font-size-adjust: auto;
+  color: #341f97
+}
+
+#sidebar {
+  position: fixed;
+  max-width: 20%;
+  background-color: #feca57
+}
