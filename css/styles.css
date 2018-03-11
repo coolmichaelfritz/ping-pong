@@ -17,6 +17,10 @@
   background-color: #EE82EE
 }
 
+#letsCount {
+  display: none;
+}
+
 #sidebar {
   position: fixed;
   max-width: 20%;
