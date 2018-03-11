@@ -9,6 +9,14 @@
   color: #341f97
 }
 
+.blue-background {
+  background-color: #75C3FF
+}
+
+.purple-background {
+  background-color: #EE82EE
+}
+
 #sidebar {
   position: fixed;
   max-width: 20%;
