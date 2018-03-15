@@ -1,8 +1,8 @@
 //Business logic
-console.log();
+
 var counter = function(userNumber) {
   var results = [];
-  for (var index = 0; index <= userNumber; index ++) {
+  for (var index = 1; index <= userNumber; index ++) {
     if (index % 15 === 0) {
       results.push("ping-pong");
     }
@@ -35,7 +35,7 @@ $(document).ready(function() {
 //       $("ul#LetsCount").append("<li>" + item + "</li>");
 //     });
     for (var i = 0; i < userResults.length; i++) {
-      $("ul#letsCount").append("<li>" + userResults + "</li>");
+      $("ul#letsCount").append("<li>" + userResults[i] + "</li>");
     }
   });
 });
